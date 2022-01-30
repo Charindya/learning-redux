@@ -17,9 +17,13 @@ const store = createStore(
 
 // to connect our state container to our app component, we need to wrap <App /> with Provider tags
 ReactDOM.render(
+<<<<<<< HEAD
   //Provider takes in a store parameter (we are providing the store to be accesible throughout the whole App)
   <Provider store={store}>
     <App />
   </Provider>
+=======
+  <Provider><App /></Provider>
+>>>>>>> 4727d5d866c974da619b21320e543b18306c4be1
   , document.getElementById('root')
 );
