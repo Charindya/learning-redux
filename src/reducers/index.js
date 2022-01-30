@@ -4,15 +4,8 @@ import loggedReducer from './isLogged';
 
 // we can access the acounter reducer through allReducers.counterReducer
 const allReducers = combineReducers({
-    counterReducer,
-    loggedReducer
+    counter: counterReducer,
+    isLogged: loggedReducer
 });
-
-/**
- * same as above
-const allReducers = combineReducers({
-    counterReducer: counterReducer: ,
-    loggedReducer: loggedReducer
-}); */
 
 export default allReducers;
