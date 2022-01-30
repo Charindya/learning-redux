@@ -5,7 +5,7 @@ export const increment = () => {
     }
 }
 
-//when incrementing with Parms, you can grab the data or payload getting passed in, go see reducer now
+// when incrementing with Params, you can grab the data or payload getting passed in, go see the counter reducer now
 export const incrementWithParams = (number) => {
     return {
         type: "INCREMENTWITHPARAMS",

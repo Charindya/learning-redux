@@ -1,3 +1,4 @@
+// for INCREMENTWITHPARAMS, we can grab the payload or data that was passed into the action through action.payload
 const counterReducer = (state = 0, action) => {
     switch(action.type){
         case "INCREMENT":
@@ -11,5 +12,5 @@ const counterReducer = (state = 0, action) => {
     }
 }
 
-//  used to export a single class. function or primitive from a script file, makes it available to the rest of the app
+// used to export a single class. function or primitive from a script file, makes it available to the rest of the app
 export default counterReducer;
